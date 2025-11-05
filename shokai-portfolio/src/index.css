@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+:root {
+  --bg: #ffffff;
+  --muted: #6b7280;
+}
+
+.dark {
+  --bg: #0b1220;
+  --muted: #9ca3af;
+}
+
+body {
+  background: var(--bg);
+}
